@@ -10,3 +10,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss} %clr(%.-1level) %msg%n"
