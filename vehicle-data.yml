@@ -1,6 +1,5 @@
 server:
   port: 9999
-  contextPath: /vehicle-data
 
 # URL to the Eureka server. That server's port is defined in the eureka-server.yml in this same git repository
 eureka:
