@@ -11,13 +11,12 @@ spring:
   redis:
     host: localhost
     port: 6379
-
-logging:
-  pattern:
-    console: "%d{HH:mm:ss} %clr(%.-1level) %msg%n"
-
-spring:
   cloud:
     config:
       allowOverride: true
       overrideNone: true
+
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss} %clr(%.-1level) %msg%n"
